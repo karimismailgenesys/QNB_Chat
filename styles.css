@@ -1,0 +1,149 @@
+.top-bar{
+
+	background: #33383d;
+	padding: 15px;
+	padding-top: 16px;
+	padding-left: 14px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	//justify-content: space-between;
+
+}
+
+body{
+	margin: 0;
+}
+
+#icon-logo-genesys {
+    fill: #ff4f1f;
+}
+
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.svg-icon {
+	width: 28px;
+	height: 28px;
+    display: inline-block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+
+.btn-container{
+	padding-left: 30px;
+
+}
+
+.refresh{
+	color: #9baab8 !important;
+	font-family: Roboto,sans-serif;
+	font-size: 15px;
+
+
+}
+
+
+a:hover {
+  color: white !important;
+  cursor: pointer;
+}
+
+.title-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	min-width: 400px;
+	border: 1px solid #d5d5d5;
+	box-shadow: rgb(0, 0, 0, 0.1) 0 2px 4px 0;
+	border-radius: 6px;
+	padding-top: 20px;
+	margin-bottom:  25px;
+}
+
+.boxes-container{
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 200px;
+	padding-right: 200px;
+	flex-wrap: wrap;
+	
+
+}
+
+.number-title{
+	font-size: 15px;
+}
+
+.number{
+	font-size: 100px;
+	font-weight: 300;
+	color: #870052;;
+
+}
+
+a:hover {
+  color: black !important;
+}
+
+
+.title-text{
+	color: #333;
+}
+
+.status-container{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.one-row{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.number-status{
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.bi-check-circle-fill{
+	margin-left: 20px;
+	color: green;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.bi-exclamation-triangle-fill{
+	margin-left: 20px;
+	color: orange;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.status-text{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.path{
+	color: green;
+	font-size: 60px;
+}
