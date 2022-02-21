@@ -99,7 +99,7 @@ a:hover {
 
 @font-face {
     font-family: myFirstFont;
-    src: uri(Springwood.ttf);
+    src: uri(Springwood.otf);
 }
 
 .number-title{
@@ -108,9 +108,9 @@ a:hover {
 
 .text-title{
 	font-size: 50px;
-	font-weight: 300;
+	//font-weight: 300;
 	color: #404040;
-	//font-family: myFirstFont !important;
+	font-family: myFirstFont !important;
 }
 
 a:hover {
