@@ -73,6 +73,20 @@ a:hover {
 	margin-bottom:  25px;
 }
 
+.logo{
+
+	  width: 200px;
+    height: fit-content;
+}
+
+.outer-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+}
+
 .boxes-container{
 	padding-top: 100px;
 	display: flex;
@@ -81,18 +95,22 @@ a:hover {
 	padding-right: 200px;
 	flex-wrap: wrap;
 	
+}
 
+@font-face {
+    font-family: myFirstFont;
+    src: uri(Springwood.ttf);
 }
 
 .number-title{
 	font-size: 15px;
 }
 
-.number{
-	font-size: 100px;
+.text-title{
+	font-size: 50px;
 	font-weight: 300;
-	color: #870052;;
-
+	color: #404040;
+	//font-family: myFirstFont !important;
 }
 
 a:hover {
