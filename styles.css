@@ -99,7 +99,7 @@ a:hover {
 
 @font-face {
     font-family: myFirstFont;
-    src: uri(Springwood.otf);
+    src: url(Springwood.otf);
 }
 
 .number-title{
