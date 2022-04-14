@@ -1,46 +1,38 @@
 <html>
-
 <head>
 	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="logic.js"></script>
-
 </head>
-<script type="text/javascript" charset="utf-8">
-  (function (g, e, n, es, ys) {
-    g['_genesysJs'] = e;
-    g[e] = g[e] || function () {
-      (g[e].q = g[e].q || []).push(arguments)
-    };
-    g[e].t = 1 * new Date();
-    g[e].c = es;
-    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-  })(window, 'Genesys', 'https://apps.mypurecloud.de/genesys-bootstrap/genesys.min.js', {
-    environment: 'euc1',
-    deploymentId: 'b2762edf-d419-49bc-8ee9-d898e1819699'
-  });
-</script>
 <body>
-	<div class="top-bar">
-		<div class="logo">
-	        <svg class="svg-icon icon-logo-genesys">
-	        	<use xlink:href="#icon-logo-genesys">
-	        		<svg viewBox="0 0 32 32" id="icon-logo-genesys"><path d="M22.59,1.79a1.51,1.51,0,1,1-1.51,1.51,1.51,1.51,0,0,1,1.51-1.51m0-1.79a3.29,3.29,0,1,0,3.29,3.29A3.29,3.29,0,0,0,22.59,0ZM20.35,10.07a3.46,3.46,0,0,1,0,6.92H11.65a3.46,3.46,0,0,1,0-6.92h8.71m0-2.07H11.65a5.53,5.53,0,0,0,0,11.06h8.71A5.53,5.53,0,1,0,20.35,8Zm0,15a3.46,3.46,0,0,1,0,6.92H16.59a3.46,3.46,0,0,1,0-6.92h3.76m0-2.07H16.59a5.53,5.53,0,0,0,0,11.06h3.76a5.53,5.53,0,1,0,0-11.06Z"></path></svg>
-	        	</use>
-	        </svg>
+	<div class="outer-container">
+		<div class="section">
+			<h2 style="margin-top: 25px;" class="text-title">Chat with us</h1>
+		</div>
+		<div class="section section-drp">
+			<label for="lang">Language:</label>
+			<select class="drop-down" name="lang" id="lang">
+			  <option value="en">English</option>
+			  <option value="ar">Arabic</option>
+			</select>
+		</div>
+		<div class="section section-drp">
+			<label for="topic">Topic:</label>
+			<select class="drop-down" name="topic" id="topic">
+			  <option value="apply">Apply for QNB AlAhli Product</option>
+			  <option value="accounts">Accounts</option>
+			  <option value="cards">Cards</option>
+			  <option value="other">Other</option>
+			</select>
+		</div>
+		<div class="section">
+			<button class="start-btn" onclick="myFunction()" id="start">Start Chat</button>
 		</div>
 	</div>
-
-	<div class="outer-container">
-		<h2 style="margin-top: 25px;" class="text-title">Genesys Chat Trial</h1>
 	</div>
-			
-	
-	</div>
-	
 </body>
-
 </html>
 
 
