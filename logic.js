@@ -1,3 +1,13 @@
+function myFunction() {
+  console.log(document. getElementById('lang').selectedOptions[0].value);
+  console.log(document. getElementById('topic').selectedOptions[0].value);
+  Genesys("command", "Messenger.open", {},
+      function(o){},  // if resolved
+      function(o){    // if rejected
+        Genesys("command", "Messenger.close");
+      }
+    );
+}
 
   (function (g, e, n, es, ys) {
     g['_genesysJs'] = e;
@@ -15,13 +25,3 @@
 
 
 
-function myFunction() {
-  console.log(document. getElementById('lang').selectedOptions[0].value);
-  console.log(document. getElementById('topic').selectedOptions[0].value);
-  Genesys("command", "Messenger.open", {},
-      function(o){},  // if resolved
-      function(o){    // if rejected
-        Genesys("command", "Messenger.close");
-      }
-    );
-}
