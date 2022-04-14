@@ -13,12 +13,9 @@
   deploymentId: '8535b668-213d-4ee6-9786-023aadb614b7'
 });
 
-{
-  "launcherButton": { visibility: "Off"} ; //set visibility to "off" or "ondemand" to disable/hide the launcher button
-}
+
 
 function myFunction() {
-  alert("hello");
   console.log(document. getElementById('lang').selectedOptions[0].value);
   console.log(document. getElementById('topic').selectedOptions[0].value);
   Genesys("command", "Messenger.open", {},
