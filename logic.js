@@ -1,4 +1,5 @@
 function myFunction() {
+  alert("hello");
   console.log(document. getElementById('lang').selectedOptions[0].value);
   console.log(document. getElementById('topic').selectedOptions[0].value);
   Genesys("command", "Messenger.open", {},
