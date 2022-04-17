@@ -8,6 +8,9 @@
   g[e].t = 1 * new Date();
   g[e].c = es;
   ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  const btn = document.getElementById('start');
+  btn.style.backgroundColor = 'salmon';
+  btn.style.color = 'white';
 })(window, 'Genesys', 'https://apps.mypurecloud.ie/genesys-bootstrap/genesys.min.js', {
   environment: 'euw1',
   deploymentId: '8535b668-213d-4ee6-9786-023aadb614b7'
