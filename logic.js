@@ -15,9 +15,10 @@
 });
 
 
-document.getElementById("start").style.background='#000000';
 
 function myFunction() {
+  
+  document.getElementById("start").style.background='#000000';
   console.log(document. getElementById('lang').selectedOptions[0].value);
   console.log(document. getElementById('topic').selectedOptions[0].value);
   Genesys("command", "Messenger.open", {},
