@@ -15,7 +15,7 @@
 });
 
 
-document.getElementById("button").style.background='#000000';
+document.getElementById("start").style.background='#000000';
 
 function myFunction() {
   console.log(document. getElementById('lang').selectedOptions[0].value);
