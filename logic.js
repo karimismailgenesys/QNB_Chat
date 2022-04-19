@@ -20,7 +20,10 @@
 });
 
 
-Genesys("command", "Messenger.open");
-alert("HELLO");
+
+setTimeout(function(){
+    console.log("I am the third log after 5 seconds");
+    Genesys("command", "Messenger.open");
+},5000);
 
 
