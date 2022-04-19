@@ -19,11 +19,3 @@
   deploymentId: '8535b668-213d-4ee6-9786-023aadb614b7'
 });
 
-
-
-setTimeout(function(){
-    console.log("I am the third log after 5 seconds");
-    Genesys("command", "Messenger.open");
-},5000);
-
-
