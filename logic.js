@@ -21,16 +21,12 @@
 
 
 
-function myFunction() {
-    console.log(document. getElementById('lang').selectedOptions[0].value);
-  console.log(document. getElementById('topic').selectedOptions[0].value);
-  Genesys("command", "Messenger.open", {},
+Genesys("command", "Messenger.open", {},
       function(o){},  // if resolved
       function(o){    // if rejected
-        Genesys("command", "Messenger.close");
+        //Genesys("command", "Messenger.close");
       }
     );
-}
 
 
 
