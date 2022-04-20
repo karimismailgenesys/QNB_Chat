@@ -1,10 +1,10 @@
 
 
 (function (g, e, n, es, ys) {
-  console.log("INSIDE FUNCTION");
+  alert("1 INSIDE FUNCTION");
   g['_genesysJs'] = e;
   g[e] = g[e] || function () {
-    console.log("BEFORE PUSH ARGUMENTS");
+    alert("2 BEFORE PUSH ARGUMENTS");
     (g[e].q = g[e].q || []).push(arguments)
   };
   g[e].t = 1 * new Date();
@@ -17,12 +17,12 @@
   deploymentId: '8535b668-213d-4ee6-9786-023aadb614b7'
 });
 
-alert("SUBSCRIBING..");
+alert("3 SUBSCRIBING..");
 
 Genesys("subscribe", "Messenger.ready", myFunction());
 
 function myFunction(){
-    alert("INSIDE THE READY BLOCK");
+    alert("4 INSIDE THE READY BLOCK");
     Genesys("command", "Messenger.open");
 }
 
