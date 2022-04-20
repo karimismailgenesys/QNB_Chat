@@ -19,3 +19,7 @@
   deploymentId: '8535b668-213d-4ee6-9786-023aadb614b7'
 });
 
+function myFunction(){
+  Genesys("command", "Messenger.open");
+}
+
