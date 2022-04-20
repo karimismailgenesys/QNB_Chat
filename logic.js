@@ -19,7 +19,7 @@
 
 alert("3 SUBSCRIBING..");
 
-document.onload = Genesys("command", "Messenger.open");
+//document.onload = Genesys("command", "Messenger.open");
 
 //Genesys("subscribe", "Messenger.ready");
 
