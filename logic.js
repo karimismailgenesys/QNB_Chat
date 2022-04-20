@@ -24,4 +24,5 @@ function myFunction(){
 }
 
 Genesys("subscribe", "Messenger.ready", function(){
+    console.log("INSIDE THE READY BLOCK");
     Genesys("command", "Messenger.open")});
