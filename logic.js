@@ -6,7 +6,6 @@
   g[e] = g[e] || function () {
     alert("2 BEFORE PUSH ARGUMENTS");
     (g[e].q = g[e].q || []).push(arguments)
-     Genesys("command", "Messenger.open");
   };
   g[e].t = 1 * new Date();
   g[e].c = es;
@@ -19,6 +18,8 @@
 });
 
 alert("3 SUBSCRIBING..");
+
+document.onLoad = Genesys("command", "Messenger.open");
 
 //Genesys("subscribe", "Messenger.ready");
 
