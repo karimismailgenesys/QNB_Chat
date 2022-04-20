@@ -19,6 +19,10 @@
 
 alert("SUBSCRIBING..");
 
-Genesys("subscribe", "Messenger.ready", function(){
+Genesys("subscribe", "Messenger.ready", myFunction());
+
+function myFunction(){
     alert("INSIDE THE READY BLOCK");
-    Genesys("command", "Messenger.open")});
+    Genesys("command", "Messenger.open");
+}
+
