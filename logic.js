@@ -23,3 +23,5 @@ function myFunction(){
   Genesys("command", "Messenger.open");
 }
 
+Genesys("subscribe", "Messenger.ready", function(){
+    Genesys("command", "Messenger.open")});
