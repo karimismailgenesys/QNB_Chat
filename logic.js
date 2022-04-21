@@ -4,6 +4,7 @@
     g['_genesysJs'] = e;
     g[e] = g[e] || function () {
       (g[e].q = g[e].q || []).push(arguments)
+      document.getElementById("start").click();
     };
     g[e].t = 1 * new Date();
     g[e].c = es;
@@ -16,7 +17,7 @@
 
 function myFunction(){
   alert('button clicked');
- // Genesys("command", "Messenger.open");
+  Genesys("command", "Messenger.open");
 }
 
 
