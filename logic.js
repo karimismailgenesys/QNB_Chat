@@ -18,10 +18,7 @@ function myFunction(){
   Genesys("command", "Messenger.open");
 }
 
-window.onload = function(){
-    Genesys("command", "Messenger.open");
-  //document.getElementById("start").click();
-};
+
 
 
 /*Genesys("subscribe", "Messenger.ready", function(o) {
