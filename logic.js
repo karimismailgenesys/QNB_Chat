@@ -14,8 +14,11 @@
   });
 
 
+function myFunction(){
+  Genesys("command", "Messenger.open");
+}
+
 
 Genesys("subscribe", "Messenger.ready", function(o) {
-    Genesys("command", "Messenger.open");
+    document.getElementById("start").click();
 });
-
