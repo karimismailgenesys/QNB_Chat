@@ -15,7 +15,8 @@
 
 
 function myFunction(){
-  Genesys("command", "Messenger.open");
+  alert('button clicked');
+ // Genesys("command", "Messenger.open");
 }
 
 
