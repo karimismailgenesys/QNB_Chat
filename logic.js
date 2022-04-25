@@ -16,6 +16,6 @@
 
 Genesys("subscribe", "Launcher.ready", function(o){
     Genesys("command", "Messenger.open");
-    document.getElementsByClassName('Cx-MuiButtonBase-root')[0].style.visibility = 'hidden';
+    document.getElementsByClassName('Cx-messenger-49')[0].style.visibility = 'hidden';
 });
 
